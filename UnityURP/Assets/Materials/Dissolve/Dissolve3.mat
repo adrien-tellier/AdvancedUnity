@@ -34,7 +34,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs: []
     m_Floats:
-    - _DissolveAmount: 0.5
+    - _DissolveAmount: 0.467
     - _EdgeSize: 20
     - _NoiseScale: 30
     m_Colors:
