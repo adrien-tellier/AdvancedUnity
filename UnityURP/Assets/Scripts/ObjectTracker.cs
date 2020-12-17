@@ -38,7 +38,6 @@ public class ObjectTracker : MonoBehaviour
 				m_material = Renderer.sharedMaterial;
 
 			return m_material;
-
 		}
 	}
 
@@ -58,16 +57,6 @@ public class ObjectTracker : MonoBehaviour
 			return;
 
 		Material.SetVector("_TrackedPosition", m_trackedObject.position);
-	}
-
-	private void OnDestroy()
-	{
-		m_renderer = null;
-
-		if (m_material)
-			DestroyImmediate(m_material);
-
-		m_material = null;
 	}
 
 	#endregion
