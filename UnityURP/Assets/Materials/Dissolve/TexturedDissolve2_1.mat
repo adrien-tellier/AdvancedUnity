@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-73202888520553563
+--- !u!114 &-9080206382410630544
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20,8 +20,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: HeightDissolve2
-  m_Shader: {fileID: -6465566751694194690, guid: 788f7dc2d620bcb49b96468b55840bb1,
+  m_Name: TexturedDissolve2_1
+  m_Shader: {fileID: -6465566751694194690, guid: 6985cc9490419e34c80aec8e14f28946,
     type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
@@ -34,16 +34,15 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _NoiseTexture:
-        m_Texture: {fileID: 2800000, guid: b4a257f9511e1da47b309e7847249fb6, type: 3}
+        m_Texture: {fileID: 2800000, guid: 5528052c32ad7f040b0c9527a1e68df4, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _DissolveAmount: 0.5
+    - _DissolveAmount: 0.711
     - _EdgeSize: 20
-    - _Height: 6
-    - _HeightMaskGradient: 2
+    - _NoiseOffset: 0.05
     - _NoiseRemap: 0.05
-    - _NoiseTiling: 10
+    - _NoiseTiling: 1
     m_Colors:
     - _Albedo: {r: 0.23999995, g: 0.23999995, b: 0.23999995, a: 1}
-    - _EdgeColor: {r: 0, g: 2.229515, b: 3.092279, a: 1}
+    - _EdgeColor: {r: 7.677627, g: 0, b: 11.984312, a: 1}

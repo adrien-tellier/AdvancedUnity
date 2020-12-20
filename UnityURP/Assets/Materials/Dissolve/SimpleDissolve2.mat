@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-9080206382410630544
+--- !u!114 &-7574921074588100684
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20,8 +20,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Dissolve5
-  m_Shader: {fileID: -6465566751694194690, guid: 6985cc9490419e34c80aec8e14f28946,
+  m_Name: SimpleDissolve2
+  m_Shader: {fileID: -6465566751694194690, guid: 1391c8d523c2b6942b18e0c777ca300c,
     type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
@@ -32,17 +32,11 @@ Material:
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
-    m_TexEnvs:
-    - _NoiseTexture:
-        m_Texture: {fileID: 2800000, guid: 5528052c32ad7f040b0c9527a1e68df4, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
+    m_TexEnvs: []
     m_Floats:
     - _DissolveAmount: 0.5
     - _EdgeSize: 20
-    - _NoiseOffset: 0.05
-    - _NoiseRemap: 0.05
-    - _NoiseTiling: 1
+    - _NoiseScale: 30
     m_Colors:
     - _Albedo: {r: 0.23999995, g: 0.23999995, b: 0.23999995, a: 1}
-    - _EdgeColor: {r: 0, g: 5.835294, b: 11.98431, a: 1}
+    - _EdgeColor: {r: 11.984314, g: 0.7529412, b: 0, a: 1}
